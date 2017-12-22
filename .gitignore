@@ -1,6 +1,9 @@
 /*
+/Interface/*
+/Interface/Addons/Blizzard_*
 !.gitignore
 !Fonts/arialn.ttf
 !Fonts/copy.bat
+!Interface/Addons
 !Interface/
 !WTF/

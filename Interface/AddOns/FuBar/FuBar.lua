@@ -38,7 +38,7 @@ if not FUBAR_DEFAULTS then
 			adjust = true,
 			panels = {
 				[1] = {
-					attachPoint = "TOP",
+					attachPoint = "BOTTOM",
 					plugins = {
 						left = {
 							"LocationFu",
@@ -51,9 +51,6 @@ if not FUBAR_DEFAULTS then
 							"VolumeFu",
 						}
 					}
-				}, 
-				[2] = {
-					attachPoint = "BOTTOM"
 				}
 			}
 		}
@@ -111,6 +108,21 @@ function FuBar:RegisterSkin(name, bgFile)
 		backgrounds[bgFile] = name
 	end
 end
+
+FuBar:RegisterSkin("Ripple", "Interface\\AddOns\\FuBar\\ripple") -- Occam
+FuBar:RegisterSkin("Brushed", "Interface\\AddOns\\FuBar\\brushed") -- Occam
+FuBar:RegisterSkin("Black w/Yellow Border", "Interface\\AddOns\\FuBar\\blackyellow") -- Stylpe
+FuBar:RegisterSkin("Black w/Orange Border", "Interface\\AddOns\\FuBar\\blackorange") -- Stylpe
+FuBar:RegisterSkin("Black w/Red Border", "Interface\\AddOns\\FuBar\\blackred") -- Stylpe
+FuBar:RegisterSkin("Black w/Violet Border", "Interface\\AddOns\\FuBar\\blackviolet") -- Stylpe
+FuBar:RegisterSkin("Black w/Blue Border", "Interface\\AddOns\\FuBar\\blackblue") -- Stylpe
+FuBar:RegisterSkin("Black w/Cyan Border", "Interface\\AddOns\\FuBar\\blackcyan") -- Stylpe
+FuBar:RegisterSkin("Black w/Green Border", "Interface\\AddOns\\FuBar\\blackgreen") -- Stylpe
+FuBar:RegisterSkin("Black w/no Border","Interface\\Addons\\FuBar\\blackblack") -- Tem
+FuBar:RegisterSkin("Red sand stone","Interface\\Addons\\FuBar\\redsandstone") -- Occam
+FuBar:RegisterSkin("Sand stone","Interface\\Addons\\FuBar\\sandstone") -- Occam
+FuBar:RegisterSkin("Titan alternative","Interface\\Addons\\FuBar\\titanalternative") -- Occam
+FuBar:RegisterSkin("Patchwork","Interface\\Addons\\FuBar\\patchwork") -- Occam
 
 local function SetBackground(bgFile)
 	if backgrounds[bgFile] then

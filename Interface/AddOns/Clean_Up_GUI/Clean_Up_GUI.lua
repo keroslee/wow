@@ -9,8 +9,22 @@ end
 
 _G.Clean_Up_GUI_Settings = {
 	reversed = false,
-	bags = {},
-	bank = {},
+	["bags"] = {
+		["position"] = {
+			[1] = -30,
+			[2] = 0,
+		},
+		["parent"] = "BagnonCloseButton",
+		["scale"] = 1,
+	},
+	["bank"] = {
+		["position"] = {
+			[1] = -30,
+			[2] = 0,
+		},
+		["scale"] = 1,
+		["parent"] = "BanknonCloseButton",
+	},
 }
 
 bags = {

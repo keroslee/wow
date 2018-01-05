@@ -59,6 +59,15 @@ local function LoadVariables()
 			qualityBorders = 1,
 			showForeverTooltips = 1,
 			version = currentVersion,
+			Bagnon = {
+				bags = {
+					[1] = 0,
+					[2] = 1,
+					[3] = 2,
+					[4] = 3,
+					[5] = 4,
+				},
+			}
 		}
 		BagnonMsg(BAGNON_INITIALIZED)
 	elseif BagnonSets.version ~= currentVersion then

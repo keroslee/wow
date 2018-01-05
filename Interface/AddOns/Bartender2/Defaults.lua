@@ -1,17 +1,17 @@
 BT2DefaultPositions = {
 	Bar1 = {
-		PosX = -5,
-		PosY = -5,
+		PosX = 0,
+		PosY = 10,
 		Anchor = "BOTTOMLEFT",
 	},
 	Bar2 = {
-		PosX = -5,
-		PosY = 31,
+		PosX = 0,
+		PosY = 46,
 		Anchor = "BOTTOMLEFT",
 	},
 	Bar3 = {
-		PosX = -5,
-		PosY = 67,
+		PosX = 0,
+		PosY = 82,
 		Anchor = "BOTTOMLEFT",
 	},
 	Bar4 = {
@@ -25,13 +25,13 @@ BT2DefaultPositions = {
 		Anchor = "BOTTOMRIGHT",
 	},
 	Bar6 = {
-		PosX = 20,
-		PosY = 110,
+		PosX = 25,
+		PosY = 125,
 		Anchor = "BOTTOMLEFT",
 	},
 	Bar7 = {
-		PosX = 20,
-		PosY = 140,
+		PosX = 25,
+		PosY = 155,
 		Anchor = "BOTTOMLEFT",
 	},
 	Bar8 = {

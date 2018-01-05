@@ -317,7 +317,13 @@ function Bartender:LoadPosition(arg1)
 		x,y = x/s,y/s
 	end
 	frame:ClearAllPoints()
-	frame:SetPoint("BOTTOMLEFT", UIParent, x and "BOTTOMLEFT" or BT2DefaultPositions[arg1].Anchor, x or BT2DefaultPositions[arg1].PosX, y or BT2DefaultPositions[arg1].PosY)
+	local defaultX = BT2DefaultPositions[arg1].PosX
+	if arg1 == "Bar1" or arg1 == "Bar2" or arg1 == "Bar3" or arg1 == "Bar6" or arg1 == "Bar7" then
+		local halfWindowWidth = GetScreenWidth()/2
+		local halfBarWidth = frame:GetWidth()/2
+		defaultX = defaultX + halfWindowWidth-halfBarWidth
+	end
+	frame:SetPoint("BOTTOMLEFT", UIParent, x and "BOTTOMLEFT" or BT2DefaultPositions[arg1].Anchor, x or defaultX, y or BT2DefaultPositions[arg1].PosY)
 end
 
 function Bartender:ToggleBar(arg1)

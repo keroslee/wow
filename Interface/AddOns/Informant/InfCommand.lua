@@ -2,7 +2,7 @@
 	Informant
 	An addon for World of Warcraft that shows pertinent information about
 	an item in a tooltip when you hover over the item in the game.
-	3.8.0 (Kangaroo)
+	3.9.0.1000 (Kangaroo)
 	$Id: InfCommand.lua 854 2006-05-10 04:23:18Z mentalpower $
 	Command handler. Assumes responsibility for allowing the user to set the
 	options via slash command, Khaos, MyAddon etc.

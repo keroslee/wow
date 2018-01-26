@@ -2,8 +2,8 @@
 	Informant
 	An addon for World of Warcraft that shows pertinent information about
 	an item in a tooltip when you hover over the item in the game.
-	3.8.0 (Kangaroo)
-	$Id: Informant.lua 912 2006-06-26 13:53:44Z mentalpower $
+	3.9.0.1000 (Kangaroo)
+	$Id: Informant.lua 998 2006-09-12 02:08:58Z mentalpower $
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -21,9 +21,9 @@
 		Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 --]]
 
-INFORMANT_VERSION = "3.8.0"
+INFORMANT_VERSION = "3.9.0.1000"
 if (INFORMANT_VERSION == "<".."%version%>") then
-	INFORMANT_VERSION = "3.7.DEV"
+	INFORMANT_VERSION = "3.9.DEV"
 end
 
 -- GLOBAL FUNCTION PROTOTYPES:

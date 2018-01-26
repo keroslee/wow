@@ -2,7 +2,7 @@
 	Tradeskill support
 	Gives you quantities based upon your tradeskilling abilities.
 	$Id: InfTrades.lua 716 2006-02-09 15:25:17Z mentalpower $
-	Version 3.8.0 (Kangaroo)
+	Version 3.9.0.1000 (Kangaroo)
 
 	License:
 		This program is free software; you can redistribute it and/or

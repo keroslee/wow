@@ -1,9 +1,7 @@
-<Bindings>
+<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
 <!--
-
-	Informant
-	Version: 3.9.0.1000 (Kangaroo)
-	$Id: Bindings.xml 716 2006-02-09 15:25:17Z mentalpower $
+	Version: <%version%> (<%codename%>)
+	Revision: $Id: AuctionDropDownMenu.xml 1050 2006-10-06 19:52:43Z mentalpower $
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -17,12 +15,20 @@
 		GNU General Public License for more details.
 
 		You should have received a copy of the GNU General Public License
-		along with this program(see GLP.txt); if not, write to the Free Software
+		along with this program(see GPL.txt); if not, write to the Free Software
 		Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-
 -->
-	<!-- Pop up and down the information window -->
-	<Binding name="INFORMANT_POPUPDOWN" header="INFORMANT_HEADER">
-		Informant.ShowHideInfo();
-	</Binding>
-</Bindings>
+	<Frame name="AuctionDropDownMenu" inherits="UIDropDownMenuTemplate" id="1" hidden="true">
+		<Size>
+			<AbsDimension x="10" y="10"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOP">
+				<Offset>
+					<AbsDimension x="-10" y="-50"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Frame>
+
+</Ui>

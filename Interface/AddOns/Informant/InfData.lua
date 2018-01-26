@@ -2,7 +2,7 @@
 	Informant
 	An addon for World of Warcraft that shows pertinent information about
 	an item in a tooltip when you hover over the item in the game.
-	3.8.0 (Kangaroo)
+	3.9.0.1000 (Kangaroo)
 	$Id: InfData.lua 632 2005-12-18 14:36:34Z norganna $
 	Informant ItemData
 

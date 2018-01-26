@@ -1,7 +1,7 @@
 --[[
 WARNING: Generated file. Do not edit.
 
-Version: 3.8.0 (Kangaroo)
+Version: 3.9.0.1000 (Kangaroo)
 
 Licence:
   This file is not covered by the GPL.

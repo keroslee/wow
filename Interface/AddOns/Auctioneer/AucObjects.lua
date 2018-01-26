@@ -1,9 +1,11 @@
-<Bindings>
-<!--
+--[[
+	Auctioneer Addon for World of Warcraft(tm).
+	Version: 3.9.0.1063 (Kangaroo)
+	Revision: $Id: AucObjects.lua 1031 2006-10-04 04:15:38Z mentalpower $
 
-	Informant
-	Version: 3.9.0.1000 (Kangaroo)
-	$Id: Bindings.xml 716 2006-02-09 15:25:17Z mentalpower $
+	Auctioneer Objects
+	Initialization of Auctioneer method tables.
+	Thanks to the Sea coders for their invaluable input
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -17,12 +19,9 @@
 		GNU General Public License for more details.
 
 		You should have received a copy of the GNU General Public License
-		along with this program(see GLP.txt); if not, write to the Free Software
+		along with this program(see GPL.txt); if not, write to the Free Software
 		Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+]]
 
--->
-	<!-- Pop up and down the information window -->
-	<Binding name="INFORMANT_POPUPDOWN" header="INFORMANT_HEADER">
-		Informant.ShowHideInfo();
-	</Binding>
-</Bindings>
+Auctioneer = {
+};

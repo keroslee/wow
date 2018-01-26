@@ -47,7 +47,7 @@ function simpleMinimap_Skins:OnInitialize()
 			mask="Interface\\AddOns\\simpleMinimap\\skins\\dLxBottomRightMask"
 		}
 	}
-	self.defaults = { enabled=true, skin=1, border=true }
+	self.defaults = { enabled=true, skin=2, border=false }
 	self.options = {
 		type="group", name=L.skins, desc=L.skins_desc,
 		args={

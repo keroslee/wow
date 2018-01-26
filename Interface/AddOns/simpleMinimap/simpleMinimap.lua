@@ -21,7 +21,7 @@ function simpleMinimap:OnInitialize()
 	self.defaults = {
 		alpha=1, lock=false, mapPosition=false, scale=1, strata=1,
 		buttonPos = { bgs=302, meet=189, mail=169, time=137, track=38, zoomin=209, zoomout=235 },
-		show = { bgs=true, location=true, locationText=true, mail=true, meet=true, time=true, track=true, zoom=true }
+		show = { bgs=true, location=false, locationText=true, mail=true, meet=true, time=true, track=true, zoom=false }
 	}
 	self.options = {
 		type="group",

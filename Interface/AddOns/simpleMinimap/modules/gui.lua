@@ -13,7 +13,7 @@ L:RegisterTranslations("enUS", function() return({
 function simpleMinimap_GUI:OnInitialize()
 	self.db = simpleMinimap:AcquireDBNamespace("gui")
 	self.buttons = { "LeftButton", "MiddleButton", "RightButton", "Button4", "Button5" }
-	self.defaults = { enabled = true, button = 3 }
+	self.defaults = { enabled = true, button = 2 }
 	self.options = {
 		type="group", name=L.gui, desc=L.gui_desc,
 		args={

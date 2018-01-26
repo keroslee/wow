@@ -24,7 +24,7 @@ function simpleMinimap_Movers:OnInitialize()
 		QuestTimerFrame = { anchor=MinimapCluster, point="TOPRIGHT", rpoint="BOTTOMRIGHT", x=10, y=0 },
 		smmCaptureMover = { anchor=MinimapCluster, point="TOPRIGHT", rpoint="BOTTOMRIGHT", x=10, y=15 }
 	}
-	self.defaults = { enabled=true, framePos={} }
+	self.defaults = { enabled=true, framePos={}, hide=true}
 	self.options = {
 		type="group", name=L.movers, desc=L.movers_desc,
 		args={

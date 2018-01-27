@@ -151,7 +151,9 @@ function idChat2_Timestamps:AddMessage(frame, text, red, green, blue, id)
     if self.db.profile[frame:GetName()] then
         if self.db.profile.Color.On then
             local color = string.format("%02x%02x%02x", self.db.profile.Color.r*255, self.db.profile.Color.g*255, self.db.profile.Color.b*255)
-            text = string.format('|cff'..color..'%s|r %s', date(self.db.profile.Format), text)
+	    if text then
+                text = string.format('|cff'..color..'%s|r %s', date(self.db.profile.Format), text)
+	    end
         else
             text = string.format('%s %s', date(self.db.profile.Format), text)
         end

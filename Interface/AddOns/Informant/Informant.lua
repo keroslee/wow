@@ -93,7 +93,7 @@ CLASS_TO_CATEGORY_MAP = {
 
 local filterDefaults = {
 		['all'] = 'on',
-		['embed'] = 'off',
+		['embed'] = 'on',
 		['locale'] = 'default',
 		['show-vendor'] = 'on',
 		['show-vendor-buy'] = 'on',

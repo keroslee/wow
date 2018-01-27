@@ -6,4 +6,10 @@
 !Fonts/copy.bat
 !Interface/Addons
 !Interface/
-!WTF/
+!WTF/Account/KEROS/SavedVariables.lua
+!WTF/Account/KEROS/VanillaGaming/Behappyy/camera-settings.txt
+!WTF/Account/KEROS/bindings-cache.wtf
+!WTF/Config.wtf
+
+.svn
+.DS_Store
